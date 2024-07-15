@@ -45,7 +45,7 @@
     <link href="https://mxx23.github.io/2024/05/11/%E5%90%AF%E5%8A%A8GTA-Vice-City%E6%97%B6%E6%89%BE%E4%B8%8D%E5%88%B0640x480%E5%88%86%E8%BE%A8%E7%8E%87%E6%A8%A1%E5%BC%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://mxx23.github.io/2024/05/11/%E5%90%AF%E5%8A%A8GTA-Vice-City%E6%97%B6%E6%89%BE%E4%B8%8D%E5%88%B0640x480%E5%88%86%E8%BE%A8%E7%8E%87%E6%A8%A1%E5%BC%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2024-05-11T02:13:05.000Z</published>
-    <updated>2024-07-06T09:26:51.306Z</updated>
+    <updated>2024-07-15T15:55:29.150Z</updated>
     
     <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>　　启动GTA VC（罪恶都市）时弹出报错窗口，显示cannot find 640x480 video mode。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><h3 id="方案1"><a href="#方案1" class="headerlink" title="方案1"></a>方案1</h3><p>　　网络上查询得到的大部分都是这个解决方案，但是本人尝试后并没有解决问题。<br>　　先找到启动游戏的可执行文件，然后打开它的属性页面（通过右键菜单找到，Win11下Shift+右键可直接显示旧版本菜单）。<br><img src="/assets/images/2024-05-11/rightClickPage.png" alt="右键菜单示意图"><br>然后切换到兼容性，选中以兼容模式启动，并选择Windows XP（或者其他，都可以试试），并勾选下方的以640x480分辨率启动。<br><img src="/assets/images/2024-05-11/1.png" alt="兼容模式启动示意图"><br>　　不过这种方案对我的机子无效。</p><h3 id="方案2"><a href="#方案2" class="headerlink" title="方案2"></a>方案2</h3><p>　　在Bilibili上看到的，通过将配置有其他分辨率设置的配置文件放到特定目录来做到让它以其他分辨率启动游戏。Github上就有现成的配置文件可以下载，比如 <a href="https://github.com/jeandudey/gta-vc-settings-rs/blob/master/tests/gta_vc.set">GTA VC配置文件</a>，也可以 <a href="../../../../assets/web/tools/download_file.html?filename=gta_vc.set">点击此处</a> 直接下载。需要存放的目录是 [C:\Users\[你的用户名]\Documents\GTA Vice City User Files] ，放进去后就可以正常启动了。</p>]]></content>
     
